@@ -42,7 +42,6 @@ header{
     justify-content: space-between;
     padding: 0px;
     width: 90%;
-    height: 4.333125em;
   
 
 }
@@ -297,11 +296,393 @@ color: var(--secondary-color);
     gap: 5em;
     }
     
+#portfolio{
+    padding: 5em 85.53px;
+}
+    
+.MyPortfolioTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.MyPortfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 8em;
+
+}
+.VisitMyDribble {
+    background: #E62872;
+    color: white;
+    box-shadow:none;
+    border: 1.33333px solid #E62872;
+    border-radius: 10.6667px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1em 1em;
+}
+
+.VisitMyDribble img{
+    height: 25px;
+    padding-right: 1em;
+}
+
+.PortifolioimgContainer img{
+    width: 100%;
+
+
+}
+
+.VisitMyDribble:hover{
+    opacity: 0.9;
+}
+
+.MyPortfolioTitleText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 1em;
+
+}
+
+.item2{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+}
+
+.Avatar{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 10.6667px;
+    width: 30%;
+    border-bottom: 1.33333px solid #5E3BEE;
+    align-items: left;
+    gap: 0.8em;
+
+}
+
+.Avatar img{
+    width: 15%;
+
+}
+
+.Avatar a
+{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.Avatar a:hover {
+    color: var(--primary-color);
+}
+
+.Avatar img {
+    color: var(--primary-color);
+}
+
+
+
+#Testemonial {
+    padding: 0 85.53px;
+    background: #F5FCFF;
+    height: 902.19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TestemonialContent{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 5em;
+
+
+}
+
+.TestemonialItem
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left ;
+    border: 1.33333px solid #006B6A;
+    border-radius: 8px;
+}
+
+.TestemonialItemContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 3em;
+    padding: 2em 2em;
+}
+
+.TestemonialItemContent img
+{
+   width: 30%;
+}
+
+.PersonReviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    gap: 1em;
+
+}
+.PersonReviews img{
+
+    width: 20%;
+}
+
+.PersonReviewsText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 1em;
+
+}
+
+#Contact
+{
+    background: white;
+    height: 996.41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4em;
+    gap: 5em;
+
+}
+
+.ContactTitle{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.ContactForm{
+width: 50%;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 2em;
+  }
+  
+  .form-group {
+    flex-basis: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 8px;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(94, 59, 238, 0.2);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 200px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+    width: auto;
+  }
+  
+  .form-group button[type="submit"] {
+    background-color: #5E3BEE;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+   
+  }
+  
+  .terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+
+  }
+
+  select{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+  .submitButton
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  footer
+  {
+    height: 500.41px;
+    background: #F5FCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 5em;
+
+
+  }
+.footerContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7.5em;
+}
+
+  .credits
+  {
+
+
+    padding: 0 85.53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.FotterLinks{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.FotterLinks a{
+    color: var(--secondary-color);
+    font-style: normal;
+    font-size: 18.3333px;
+    font-weight:900;
+    text-decoration: none;
+}
+
+.footerDivider{
+    padding: 0 85.53px;
+    height: 1.33px;
+    background: rgba(40, 41, 56, 0.55);
+}
 
 @media screen and (max-width: 760px)  {
-    .header{
+    .header, nav{
         flex-direction: column;
     }
+
+    .MySkills{
+        flex-direction: column;
+    }
+    .MyPortfolio
+    {
+        flex-direction: column;
+    }
+    h1{
+        font-weight: bold;
+        color: var(--secondary-color);
+        font-size: 20.6667px;
     
+    }
+    .GetInTouch
+    {
+    
+
+        width: 150.67px;
+        height: 49.33px;
+    }
+    
+    .contact-button
+    {
+
+        width: 150.67px;
+        height: 49.33px;
+    }
+
+    .header-container{
+        height: 14em;
+    }
+
+    #home {
+   
+        flex-direction: column;
+        height: auto;
+
+        }
+    #AboutMe {
+      
+            flex-direction: column;
+            height: auto;
+        }
+        #MySKillSection{
+
+            height: auto;  
+           
+        }
+        #Testemonial {
+
+            height: auto;
+
+        }
+        
+
 }
